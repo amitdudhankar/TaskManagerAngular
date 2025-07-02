@@ -1,7 +1,4 @@
 
-
-
-````markdown
 # 🧑‍💻 Angular Task Manager App
 
 A modern Task Manager built using **Angular Standalone Components**, **SCSS**, and **JSON Server** as a mock backend.
