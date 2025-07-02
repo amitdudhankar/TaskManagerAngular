@@ -98,5 +98,3 @@ ng serve          # if using Angular CLI
 ## 📄 License
 
 MIT — Made with ❤️ by [Amit Dudhankar](https://github.com/amitdudhankar)
-
-```
