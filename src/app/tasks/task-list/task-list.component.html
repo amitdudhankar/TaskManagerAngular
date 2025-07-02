@@ -1,0 +1,28 @@
+<h2>Task Manager</h2>
+
+<button class="add-task" (click)="openAddTaskDialog()">Add New Task</button>
+
+<hr />
+
+<h2>Your Tasks</h2>
+
+<mat-spinner *ngIf="loading"></mat-spinner>
+
+<ul *ngIf="!loading && tasks.length" class="task-list">
+  <li *ngFor="let task of tasks" class="task-item">
+    <div class="task-info">
+      <h3 class="task-title">{{ task.title }}</h3>
+      <p class="task-desc">{{ task.description }}</p>
+    </div>
+
+    <div class="actions">
+      <button class="edit" (click)="openEditTaskDialog(task)">Edit</button>
+      <button class="delete" (click)="onDelete(task.id!)">Delete</button>
+    </div>
+  </li>
+</ul>
+
+<p *ngIf="!loading && tasks.length === 0">No tasks found.</p>
+<div class="header">
+  <button class="logout" (click)="logout()">Logout</button>
+</div>

@@ -1,0 +1,159 @@
+:host {
+  display: block;
+  padding: 2rem;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-left: 0.5rem;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &.add-task {
+    background-color: #3f51b5;
+    color: white;
+
+    &:hover {
+      background-color: #303f9f;
+    }
+  }
+
+  &.edit {
+    background-color: #ffc107;
+    color: #000;
+
+    &:hover {
+      background-color: #e0a800;
+    }
+  }
+
+  &.delete {
+    background-color: #e53935;
+    color: white;
+
+    &:hover {
+      background-color: #c62828;
+    }
+  }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+
+  li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .task-details {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      margin-right: 1rem;
+
+      .task-title {
+        font-weight: 600;
+        font-size: 1rem;
+        color: #2c3e50;
+        margin-bottom: 0.2rem;
+      }
+
+      .task-desc {
+        font-size: 0.9rem;
+        color: #666;
+      }
+    }
+
+    .actions {
+      display: flex;
+      gap: 0.5rem;
+
+      button {
+        padding: 0.4rem 1rem;
+        font-size: 0.9rem;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      .edit {
+        background-color: #ffc107;
+        color: #000;
+
+        &:hover {
+          background-color: #e0a800;
+        }
+      }
+
+      .delete {
+        background-color: #e53935;
+        color: white;
+
+        &:hover {
+          background-color: #c62828;
+        }
+      }
+    }
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+
+  h2 {
+    margin: 0;
+    font-size: 1.8rem;
+  }
+
+  .logout {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #c62828;
+    }
+  }
+}
+
+mat-spinner {
+  display: block;
+  margin: 2rem auto;
+}
+
+p {
+  font-style: italic;
+  color: #999;
+  margin-top: 1rem;
+}
