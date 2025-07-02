@@ -1,8 +1,8 @@
-Here’s the final copy-paste-ready `README.md` file for your Angular Task Manager App:
+Got it! Here's the updated, **clean and copy-paste-ready `README.md`** file **without** the folder structure section:
 
 ---
 
-```markdown
+````markdown
 # 🧑‍💻 Angular Task Manager App
 
 A modern Task Manager built using **Angular Standalone Components**, **SCSS**, and **JSON Server** as a mock backend.
@@ -30,29 +30,6 @@ A modern Task Manager built using **Angular Standalone Components**, **SCSS**, a
 - Reactive Forms
 - SCSS for styling
 - JSON Server for REST API simulation
-
----
-
-## 📁 Folder Structure
-
-```
-
-src/
-├── app/
-│   ├── auth/
-│   │   ├── login/
-│   │   └── signup/
-│   ├── tasks/
-│   │   ├── task-form/
-│   │   ├── task-list/
-│   │   └── task-update/
-│   ├── core/
-│   │   └── guards/
-│   ├── shared/
-│   │   └── models/
-│   └── app.routes.ts
-
-````
 
 ---
 
@@ -105,9 +82,9 @@ ng serve          # if using Angular CLI
 
 * On login/signup:
 
-  * Sets `loggedIn` and `user` in localStorage
+  * Sets `loggedIn` and `user` in `localStorage`
 * Auth Guard checks these to protect `/dashboard`
-* Logout clears localStorage and redirects to login
+* Logout clears `localStorage` and redirects to login
 
 ---
 
@@ -127,5 +104,7 @@ MIT — Made with ❤️ by [Amit Dudhankar](https://github.com/amitdudhankar)
 
 ---
 
-✅ You can now paste this into your `README.md` file and commit it to GitHub. Let me know if you want badges, screenshots, or deployment steps added!
+✅ You can paste this into your `README.md` file as-is.
+
+Want a project logo, badge, or live demo deployment instructions? Just ask!
 ```
