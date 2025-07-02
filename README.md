@@ -1,6 +1,5 @@
-Got it! Here's the updated, **clean and copy-paste-ready `README.md`** file **without** the folder structure section:
 
----
+
 
 ````markdown
 # 🧑‍💻 Angular Task Manager App
@@ -38,8 +37,8 @@ A modern Task Manager built using **Angular Standalone Components**, **SCSS**, a
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/your-username/task-manager-angular.git
-cd task-manager-angular
+git clone https://github.com/amitdudhankar/TaskManagerAngular.git
+cd TaskManagerAngular
 npm install
 ````
 
@@ -100,11 +99,4 @@ ng serve          # if using Angular CLI
 
 MIT — Made with ❤️ by [Amit Dudhankar](https://github.com/amitdudhankar)
 
-```
-
----
-
-✅ You can paste this into your `README.md` file as-is.
-
-Want a project logo, badge, or live demo deployment instructions? Just ask!
 ```
