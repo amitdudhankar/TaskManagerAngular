@@ -40,7 +40,7 @@ A modern Task Manager built using **Angular Standalone Components**, **SCSS**, a
 git clone https://github.com/amitdudhankar/TaskManagerAngular.git
 cd TaskManagerAngular
 npm install
-````
+```
 
 ### 2. Run JSON Server
 
